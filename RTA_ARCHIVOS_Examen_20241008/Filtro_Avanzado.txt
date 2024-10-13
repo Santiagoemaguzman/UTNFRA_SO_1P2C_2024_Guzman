@@ -1,0 +1,7 @@
+Mi IP Publica es : 181.46.66.84
+Mi usuario es: vagrant
+El Hash de mi Usuario es: 
+El Hash de mi Usuario es: 
+El Hash de mi Usuario es: 
+El Hash de mi Usuario es: $y$j9T$f7V.J8o8/5JXqaI3xUKKQ0$oND2iaEkOI22AcHc9kfKwylXqBi.VixFO/cPGuxMD..
+La URL de mi repositorio es: git@github.com:Santiagoemaguzman/UTNFRA_SO_1P2C_2024_Guzman.git
