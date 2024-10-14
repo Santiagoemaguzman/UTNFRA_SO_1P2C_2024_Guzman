@@ -1,12 +1,18 @@
 #!/bin/bash
+sudo groupadd p1c2_2024_gAlumno
+sudo groupadd p1c2_2024_gProfesores
+
 sudo useradd -m -G p1c2_2024_gAlumno p1c2_2024_A1
-echo "p1c2_2024_A1:usuarios12345" | sudo chpasswd
+echo "p1c2_2024_A1:vagrant" | sudo chpasswd
 
 sudo useradd -m -G p1c2_2024_gAlumno p1c2_2024_A2
-echo "p1c2_2024_A2:usuarios12345" | sudo chpasswd
+echo "p1c2_2024_A2:vagrant" | sudo chpasswd
 
 sudo useradd -m -G p1c2_2024_gAlumno p1c2_2024_A3
-echo "p1c2_2024_A3:usuarios12345" | sudo chpasswd
+echo "p1c2_2024_A3:vagrant" | sudo chpasswd
+
+sudo useradd -m -G p1c2_2024_gProfesores p1c2_2024_P1
+echo "p1c2_2024_P1:vagrant" | sudo chpasswd
 
 sudo grep -E 'p1c2_2024_A1|p1c2_2024_A2|p1c2_2024_A3' /etc/shadow | awk -F ':' '{print $2}'
 
